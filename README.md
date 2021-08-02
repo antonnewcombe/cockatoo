@@ -17,6 +17,9 @@ If you have any questions, comments, setup problems then reach out @cockatoo_sco
 - source INSERT_YOUR_PATH_HERE/venv/bin/activate
 - pip3 install -r requirements.txt
 
+## Sign up to FTX exchange
+[ftx.com](https://ftx.com/#a=cockatoo)
+
 ## Features
 
 ### Main Window
