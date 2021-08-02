@@ -1,0 +1,22 @@
+pandas==1.1.3
+numpy==1.19.2
+requests==2.24.0
+#time
+#hmac
+#json
+#os
+#sys
+#functools
+#collections
+#decimal
+#bisect
+#concurrent
+#itertools
+#threading
+#zlib
+PyQt5
+regex==2020.10.15
+pygame==2.0.1 #use for sound play
+nest-asyncio==1.4.2 #asyncio
+typing
+websocket-client ==0.57.0 #websocket

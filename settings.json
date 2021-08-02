@@ -1,0 +1,134 @@
+{
+    "dom_settings": {
+        "aggregation_levels": {
+            "ETH-PERP": [
+                0.5,
+                1,
+                2,
+                2.5,
+                5,
+                10,
+                20
+            ],
+            "SOL-PERP": [
+                0.00025,
+                0.001,
+                0.0025,
+                0.005,
+                0.01,
+                0.025,
+                0.05,
+                0.1,
+                0.5,
+                1.0,
+                2.0,
+                2.5,
+                5.0,
+                10.0,
+                50.0,
+                100.0
+            ],
+            "default": [
+                0.00025,
+                0.001,
+                0.0025,
+                0.005,
+                0.01,
+                0.025,
+                0.05,
+                0.1,
+                0.5,
+                1,
+                2,
+                2.5,
+                5,
+                10,
+                50,
+                100
+            ]
+        },
+        "button_values": {
+            "1INCH-PERP": [
+                0.001,
+                0.01,
+                0.1,
+                0.5,
+                1.0,
+                10.0
+            ],
+            "default": [
+                1.0,
+                3.0,
+                6.0,
+                9.0,
+                12.0,
+                15.0
+            ]
+        }
+    },
+    "favourites": {
+        "FTX": [
+            "BTC-PERP",
+            "LINK-PERP",
+            "RUNE-PERP",
+            "UNI-PERP",
+            "ETH-PERP",
+            "SOL/USDT",
+            "SOL/USD",
+            "SOL-PERP"
+        ]
+    },
+    "keys": {
+        "FTX": {
+            "private": "",
+            "public": "",
+            "save_keys_in_settings_file": false
+        }
+    },
+    "quoteboard": {
+        "0": "BTC-PERP",
+        "1": "ETH-PERP",
+        "10": "DOGE-PERP",
+        "11": "ADA-PERP",
+        "12": "",
+        "13": "",
+        "2": "USDT/USD",
+        "3": "?[BTC-1231] / [BTC/USD]",
+        "4": "?[ETH-1231] / [ETH/USD]",
+        "5": "~Exchanges",
+        "6": "FTT/USD",
+        "7": "?352_170_015 * [FTT/USD]",
+        "8": "?261_300_000 * [COIN/USD]",
+        "9": "~MEME"
+    },
+    "sounds": {
+        "fills": {
+            "file": "assets/sounds/register.wav"
+        },
+        "liquidation": {
+            "file": "assets/sounds/return_to_sender.wav"
+        },
+        "order_fail": {
+            "file": "sounds/order_fail.wav"
+        },
+        "orders": {
+            "file": ""
+        }
+    },
+    "themes": {
+        "background": "",
+        "frame": "assets/blue2.png"
+    },
+    "trade_subs": {
+        "FTX": [
+            "BTC-PERP",
+            "ETH-PERP",
+            "DOGE-PERP",
+            "LINK-PERP",
+            "SUSHI-PERP",
+            "DOT-PERP",
+            "SOL-PERP",
+            "CRV-PERP"
+        ]
+    }
+}

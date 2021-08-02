@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14.50367mm"
+   height="17.793346mm"
+   viewBox="0 0 14.50367 17.793346"
+   version="1.1"
+   id="svg1170"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="sleepy_cockatoo.svg"
+   inkscape:export-filename="/home/plmoknij/Desktop/sleepy.png"
+   inkscape:export-xdpi="300.45999"
+   inkscape:export-ydpi="300.45999">
+  <defs
+     id="defs1164">
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3766">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3758">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3756" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3760" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3762" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3764" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3778">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3770">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3768" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3772" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3774" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3776" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3790">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3782">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3780" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3784" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3786" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3788" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3802">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3794">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3792" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3796" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3798" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3800" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3814">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3806">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3804" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3808" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3810" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3812" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3826">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3818">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3816" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3820" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3822" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3824" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3838">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3830">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3828" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3832" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3834" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3836" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3850">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3842">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3840" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3844" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3846" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3848" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3862">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3854">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3852" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3856" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3858" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3860" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3874">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3866">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3864" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3868" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3870" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3872" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3886">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3878">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3876" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3880" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3882" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3884" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3898">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3890">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3888" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3892" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3894" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3896" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3910">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3902">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3900" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3904" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3906" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3908" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3922">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3914">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3912" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3916" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3918" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3920" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3934">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3926">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3924" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3928" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3930" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3932" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3946">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3938">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3936" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3940" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3942" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3944" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3958">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3950">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3948" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3952" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3954" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3956" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3970">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3962">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3960" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3964" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3966" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3968" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3982">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3974">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3972" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3976" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3978" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3980" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter3994">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3986">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3984" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite3988" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology3990" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite3992" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4006">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting3998">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight3996" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4000" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4002" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4004" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4018">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4010">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4008" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4012" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4014" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4016" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4030">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4022">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4020" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4024" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4026" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4028" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4042">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4034">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4032" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4036" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4038" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4040" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4054">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4046">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4044" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4048" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4050" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4052" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4066">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4058">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4056" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4060" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4062" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4064" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4078">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4070">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4068" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4072" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4074" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4076" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4090">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4082">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4080" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4084" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4086" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4088" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4102">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4094">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4092" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4096" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4098" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4100" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4114">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4106">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4104" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4108" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4110" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4112" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4126">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4118">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4116" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4120" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4122" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4124" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4138">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4130">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4128" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4132" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4134" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4136" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4150">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4142">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4140" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4144" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4146" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4148" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4162">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4154">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4152" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4156" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4158" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4160" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4174">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4166">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4164" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4168" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4170" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4172" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4186">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4178">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4176" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4180" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4182" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4184" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4198">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4190">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4188" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4192" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4194" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4196" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4210">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4202">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4200" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4204" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4206" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4208" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4222">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4214">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4212" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4216" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4218" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4220" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4234">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4226">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4224" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4228" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4230" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4232" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4246">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4238">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4236" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4240" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4242" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4244" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4258">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4250">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4248" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4252" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4254" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4256" />
+    </filter>
+    <filter
+       inkscape:label="Jigsaw Piece"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Low, sharp bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter4270">
+      <feSpecularLighting
+         in="SourceAlpha"
+         surfaceScale="1"
+         specularConstant="2"
+         specularExponent="18.5"
+         id="feSpecularLighting4262">
+        <feDistantLight
+           elevation="30"
+           azimuth="225"
+           id="feDistantLight4260" />
+      </feSpecularLighting>
+      <feComposite
+         result="result0"
+         operator="atop"
+         in2="SourceGraphic"
+         id="feComposite4264" />
+      <feMorphology
+         radius="2"
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         id="feMorphology4266" />
+      <feComposite
+         in="result0"
+         in2="result1"
+         id="feComposite4268" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.5600001"
+     inkscape:cx="-55.014201"
+     inkscape:cy="79.587042"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata1167">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-240.35032,-180.62628)">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.26806745;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 243.33423,187.12051 c 2.26647,-1.43287 7.34932,-1.43287 9.61578,0 1.2205,0.7716 0.97443,3.69359 1.32567,4.9049 0.6351,2.19023 0.88117,2.89281 -1.32567,4.28798 -2.26646,1.43285 -7.34931,1.43285 -9.61578,0 -2.3115,-1.46136 -3.3924,-3.19848 -2.58598,-5.4573 0.38926,-1.09039 1.47016,-3.03014 2.58598,-3.73558 z"
+       id="rect1336-5-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssss" />
+    <path
+       style="fill:#28170b;stroke:#000000;stroke-width:0.01581996;stroke-opacity:1"
+       d="m 249.38509,189.78775 -0.79742,1.03314 1.19144,0.20328 0.43134,0.58021 c 0.48259,-0.65645 0.27596,-1.45271 -0.49728,-1.73442 -0.10543,-0.0383 -0.21556,-0.065 -0.32808,-0.0822 z"
+       id="path1264-1-2"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="1.6280576"
+       inkscape:transform-center-y="1.0369067" />
+    <path
+       style="fill:#483737;stroke:#000000;stroke-width:0.00692026;stroke-opacity:1"
+       d="m 250.01062,191.63002 -1.42295,-0.80914 a 0.82120711,0.49164489 27.152453 0 0 0.43821,0.79088 0.82120711,0.49164489 27.152453 0 0 0.98474,0.0182 z"
+       id="path1269-1-9"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.02884466;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2232-50-8"
+       width="0.20782535"
+       height="0.79005939"
+       x="246.32349"
+       y="197.30803" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.05351824;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2234-6-1"
+       width="0.28109688"
+       height="1.3198496"
+       x="343.02399"
+       y="36.736862"
+       transform="matrix(0.82454849,0.5657913,-0.99400039,0.10937657,0,0)"
+       inkscape:transform-center-x="-0.62346649"
+       inkscape:transform-center-y="0.10281994" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.05351824;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2234-3-4-3"
+       width="0.28109688"
+       height="1.3198496"
+       x="260.45364"
+       y="463.8631"
+       transform="matrix(-0.82454849,0.5657913,0.99400039,0.10937657,0,0)"
+       inkscape:transform-center-x="0.62350222"
+       inkscape:transform-center-y="0.10283292" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.03019324;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2232-6-6-1"
+       width="0.22771269"
+       height="0.79005939"
+       x="251.46359"
+       y="196.84944" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.05351824;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2234-0-2-1"
+       width="0.28109688"
+       height="1.3198496"
+       x="343.18332"
+       y="31.720211"
+       transform="matrix(0.82454849,0.5657913,-0.99400039,0.10937657,0,0)"
+       inkscape:transform-center-x="-0.62350451"
+       inkscape:transform-center-y="0.10284298" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.05781047;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2234-3-6-5-0"
+       width="0.29964775"
+       height="1.4447038"
+       x="279.90305"
+       y="491.14505"
+       transform="matrix(-0.84751984,0.53076371,0.99499507,0.09992403,0,0)"
+       inkscape:transform-center-x="0.68315794"
+       inkscape:transform-center-y="0.10283042" />
+    <ellipse
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.26367292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2276-86-3"
+       cx="252.04332"
+       cy="191.23163"
+       rx="1.2816392"
+       ry="0.80776286" />
+    <ellipse
+       style="fill:#ff2a2a;stroke:#000000;stroke-width:0.26367292;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2276-8-2-4"
+       cx="245.93506"
+       cy="191.65727"
+       rx="1.198509"
+       ry="0.80776286" />
+    <path
+       style="fill:#ffe680;stroke:#000000;stroke-width:0.13952692;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 249.78469,180.75015 0.80999,0.29285 c 0,0 0.85261,2.04989 0.85261,3.11144 0,1.19576 -0.59683,3.36765 -0.59683,3.36765 h -1.06577 c 0,0 1.15103,-2.13528 1.15103,-3.33105 0,-1.06155 -1.15103,-3.44089 -1.15103,-3.44089 z"
+       id="rect2303-84-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccsc" />
+    <path
+       style="fill:#ffe680;stroke:#000000;stroke-width:0.13952692;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 248.71893,180.75015 0.80998,0.29285 c 0,0 0.85261,2.04989 0.85261,3.11144 0,1.19576 -0.59683,3.36765 -0.59683,3.36765 h -1.06576 c 0,0 1.15101,-2.13528 1.15101,-3.33105 0,-1.06155 -1.15101,-3.44089 -1.15101,-3.44089 z"
+       id="rect2303-5-7-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccsc" />
+    <path
+       style="fill:#ffe680;stroke:#000000;stroke-width:0.13952692;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 245.42036,183.00748 0.97197,0.18383 c 0,0 1.02314,1.28687 1.02314,1.95329 0,0.75068 -0.71619,2.11414 -0.71619,2.11414 h -1.27892 c 0,0 1.38123,-1.34048 1.38123,-2.09116 0,-0.66642 -1.38123,-2.1601 -1.38123,-2.1601 z"
+       id="rect2303-5-0-2-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccsc" />
+    <path
+       style="fill:#ffe680;stroke:#000000;stroke-width:0.13952692;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 246.55422,181.14768 0.65418,0.0625 c 0,0 1.11224,1.65607 1.37046,2.6253 0.29086,1.09179 0.38963,3.22571 0.38963,3.22571 l -0.76702,0.26946 c 0,0 0.30898,-2.24063 0.0181,-3.33241 -0.25822,-0.96925 -1.66537,-2.85068 -1.66537,-2.85068 z"
+       id="rect2303-5-0-9-40-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccsc" />
+    <path
+       style="fill:#2b1100;stroke:#000000;stroke-width:0.00721973;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 245.05033,189.95563 c 0,0 0.71871,0.21058 1.08686,0.21145 0.37735,5.2e-4 1.11491,-0.21145 1.11491,-0.21145 v 0.29452 c 0,0 -0.73756,0.21235 -1.11491,0.21147 -0.36815,-5.4e-4 -1.08686,-0.21147 -1.08686,-0.21147 z"
+       id="rect4272"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc" />
+    <path
+       style="fill:#2b1100;stroke:#000000;stroke-width:0.00675007;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 250.83563,189.46302 c 0,0 0.6121,0.0583 0.89785,-0.0244 0.29291,-0.0848 0.80983,-0.47522 0.80983,-0.47522 l 0.0764,0.30959 c 0,0 -0.51692,0.39053 -0.80983,0.47521 -0.28578,0.0826 -0.89785,0.0244 -0.89785,0.0244 z"
+       id="rect4272-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="caccacc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.82056713px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04551418"
+       x="242.58018"
+       y="190.54192"
+       id="text6081"
+       transform="scale(1.0463252,0.95572584)"><tspan
+         sodipodi:role="line"
+         id="tspan6079"
+         x="242.58018"
+         y="190.54192"
+         style="font-weight:bold;stroke-width:0.04551418">z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.70818019px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04270452"
+       x="246.80081"
+       y="188.21191"
+       id="text6081-2"
+       transform="scale(1.025177,0.97544132)"><tspan
+         sodipodi:role="line"
+         id="tspan6079-9"
+         x="246.80081"
+         y="188.21191"
+         style="font-weight:bold;stroke-width:0.04270452">z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.92619061px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04815476"
+       x="198.64146"
+       y="234.62723"
+       id="text6081-2-6"
+       transform="scale(1.2682634,0.78847976)"><tspan
+         sodipodi:role="line"
+         id="tspan6079-9-1"
+         x="198.64146"
+         y="234.62723"
+         style="font-weight:bold;stroke-width:0.04815476">z</tspan></text>
+  </g>
+</svg>
