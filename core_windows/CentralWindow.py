@@ -207,9 +207,6 @@ class DomSettings(PyQt5.QtWidgets.QDialog):
         QLineEdit {background-color: white; color: black; font: bold}
         """)
 
-        self.setMinimumSize(1200, 150)
-        self.setMaximumSize(1200, 150)
-
         self.markets = markets
         self.selected = markets[0]
 
@@ -512,7 +509,7 @@ class ActivityWindow(PyQt5.QtWidgets.QTableWidget):
         color, background = quote_board_colors['header']['color'], quote_board_colors['header']['background']
         self.setStyleSheet("QHeaderView:section {" + f'color:{color}; background-color:{background};' + 'font:bold}')
         self.setRowCount(0)
-        self.colnames = ['Time 时间', 'Market 市场', 'Price 价格', 'USD 美元']
+        self.colnames = ['Time', 'Market', 'Price', 'USD']
         self.columns = ['time', 'market', 'price', 'USD']
         self.setColumnCount(len(self.columns))
 
@@ -522,11 +519,7 @@ class ActivityWindow(PyQt5.QtWidgets.QTableWidget):
         self.verticalHeader().setVisible(False)
         self.verticalHeader().setDefaultSectionSize(16)
 
-        self.horizontalHeader().setSectionResizeMode(PyQt5.QtWidgets.QHeaderView.Fixed)
-        self.total_width = 0
-        for i, width in enumerate([70, 120, 100, 110]):
-            self.setColumnWidth(i, width)
-            self.total_width += width
+        self.horizontalHeader().setSectionResizeMode(len(self.columns)-1, PyQt5.QtWidgets.QHeaderView.Stretch)
 
 
 class ActivityWindowSection(PyQt5.QtWidgets.QWidget):
@@ -535,6 +528,7 @@ class ActivityWindowSection(PyQt5.QtWidgets.QWidget):
 
     def __init__(self, parent=None, settings=None):
         super().__init__(parent)
+        self.display_count = 0 #for resize on first trade data
         self.settings = settings
         self.markets = self.parent().available_markets['FTX']
         self.selections = self.settings['trade_subs']['FTX']
@@ -589,6 +583,9 @@ class ActivityWindowSection(PyQt5.QtWidgets.QWidget):
             self.activity_window.selectRow(
                 row_position)  # this and below line ensure the table is fully scrolled to the bottom.doesnt work otherwise
             self.activity_window.clearSelection()
+        if self.display_count == 0 and data: #data can be empty list
+            self.activity_window.resizeColumnToContents(0)
+            self.display_count += 1
 
     def launchSettings(self):
 
@@ -830,8 +827,8 @@ class MasterQuoteBoard(PyQt5.QtWidgets.QTableView):
         self.setStyleSheet("QHeaderView:section {" + f'color:{color}; background-color:{background};' + 'font:bold}')
         self.columns = ['name', 'last', 'index', 'basis', 'rate', 'change1h', 'change24h', 'volumeUsd24h',
                         'lend_estimate_APY']
-        self.colnames = ['Market 市场', 'Last 最后的', 'Index 指数', 'Basis 基础', 'Funding 资金', '1hrΔ 价格变动',
-                         '24hrΔ 价格变动', '24hr USD 体积', 'Lend APY 借']
+        self.colnames = ['Market', 'Last', 'Index', 'Basis', 'Funding', '1hrΔ',
+                         '24hrΔ', '24hr USD', 'Lend APY']
         self.mapping = {k: v for k, v in zip(self.columns, self.colnames)}
 
         init_frame = np.full((100, len(self.columns)), '-')
@@ -857,10 +854,7 @@ class MasterQuoteBoard(PyQt5.QtWidgets.QTableView):
         margin_delegate = MarginQuoteBoardDelegate()
         self.view.setItemDelegateForColumn(8, margin_delegate)
 
-        # references default width in item delegate
-        self.view.horizontalHeader().setSectionResizeMode(0, PyQt5.QtWidgets.QHeaderView.ResizeToContents)
-        for i in range(1, len(self.columns)):
-            self.view.horizontalHeader().setSectionResizeMode(i, PyQt5.QtWidgets.QHeaderView.Stretch)
+        self.view.horizontalHeader().setSectionResizeMode(len(self.columns)-1, PyQt5.QtWidgets.QHeaderView.Stretch)
 
         self.view.verticalHeader().hide()
         self.view.verticalHeader().setDefaultSectionSize(18)
@@ -888,10 +882,12 @@ class QuoteBoard(PyQt5.QtWidgets.QTableWidget):
         color, background = quote_board_colors['header']['color'], quote_board_colors['header']['background']
         self.setStyleSheet("QHeaderView:section {" + f'color:{color}; background-color:{background};' + 'font:bold}')
         self.columns = ['exchange:market', 'last', 'basis', 'rate', 'change1h', 'change24h', 'volumeUsd24h']
-        self.colnames = ['Market 市场', 'Last 最后的', 'Basis 基础', 'Funding 资金', '1hrΔ 价格变动',
-                         '24hrΔ 价格变动', '24hr USD 体积', 'Lend APY 借']
+        self.colnames = ['Market', 'Last', 'Basis', 'Funding', '1hrΔ',
+                         '24hrΔ', '24hr USD', 'Lend APY']
         self.setColumnCount(len(self.columns))
         self.settings = settings
+
+        self.display_count = 0
 
         self.setShowGrid(False)
 
@@ -928,10 +924,7 @@ class QuoteBoard(PyQt5.QtWidgets.QTableWidget):
         volume_delegate = LastQuoteBoardDelegate(self)
         self.setItemDelegateForColumn(6, volume_delegate)
 
-        self.horizontalHeader().setSectionResizeMode(0, PyQt5.QtWidgets.QHeaderView.ResizeToContents)
-
-        for i in range(1, len(self.columns)):
-            self.horizontalHeader().setSectionResizeMode(i, PyQt5.QtWidgets.QHeaderView.Stretch)
+        self.horizontalHeader().setSectionResizeMode(len(self.columns)-1, PyQt5.QtWidgets.QHeaderView.Stretch)
 
     def addSeperatorRow(self):
         if not self.selectedItems():
@@ -1022,6 +1015,11 @@ class QuoteBoard(PyQt5.QtWidgets.QTableWidget):
                     if cell.text() != '':
                         blank = PyQt5.QtWidgets.QTableWidgetItem('')
                         self.setItem(row, i, blank)
+
+        if self.display_count == 0:
+            #reize the first column
+            self.resizeColumnToContents(0)
+            self.display_count += 1
 
         if custom_markets != self.settings:
             self.quote_board_signal.emit('quoteboard', custom_markets)
@@ -1425,8 +1423,6 @@ class Window(PyQt5.QtWidgets.QMainWindow):
         self.setWindowTitle('cockatoo')
         self.setWindowIcon(PyQt5.QtGui.QIcon('assets/cockatoo.svg'))
 
-        self.showMaximized()
-        self.move(50, 50)
 
         self.settings = EmptySettings
         self.configureSettings()
@@ -1463,8 +1459,8 @@ class Window(PyQt5.QtWidgets.QMainWindow):
         self.activityWindow = ActivityWindowSection(self, self.settings)
         self.activityWindow.update_trade_sub_signal.connect(partial(self.updateSettings))
         self.activityWindow.play_sound_signal.connect(self.playSound)
-        self.activityWindow.setMinimumWidth(self.activityWindow.activity_window.total_width + 40)
-        self.activityWindow.setMaximumWidth(self.activityWindow.activity_window.total_width + 40)
+        self.activityWindow.setMinimumWidth(0)
+        self.activityWindow.setMaximumWidth(800)
 
         self.orderPosition = OrderPosition(self.settings, account_info=self.account_info)
         self.orderPosition.update_trigger_orders_signal.connect(self.updateTriggerOrders)
@@ -1488,14 +1484,18 @@ class Window(PyQt5.QtWidgets.QMainWindow):
         splitter3 = PyQt5.QtWidgets.QSplitter(PyQt5.QtCore.Qt.Horizontal)
         splitter3.addWidget(splitter2)
         splitter3.addWidget(self.activityWindow)
+        splitter3.setStretchFactor(0, 65)
+        splitter3.setStretchFactor(1, 35)
 
         sub_layout1.addWidget(splitter3)
 
         layout.addLayout(sub_layout1, 0, 0)
 
-        layout.setColumnStretch(0, 1)  # Give column 0 stretch ability of ratio 1
         layout.setColumnStretch(0, 0)  # Give column 1 no stretch ability
-        self.show()
+
+        self.setWindowState(PyQt5.QtCore.Qt.WindowMaximized)
+        self.showMaximized()
+
         self.loading_screen.splash.show()
 
     def playSound(self, sound_type):

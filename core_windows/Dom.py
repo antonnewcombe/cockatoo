@@ -149,7 +149,7 @@ class DomWindow(MainWindow):
 
     def __init__(self, parent=None, contract=None, exchange=None, specs=None, keys=None, dom_settings=None):
         PyQt5.QtWidgets.QMainWindow.__init__(self, parent)
-
+        self.setWindowIcon(PyQt5.QtGui.QIcon('assets/cockatoo.svg'))
         self.tick = specs['tick_size']
         self.future_flag = True if specs['type'] == 'future' else False
         self.button_values = dom_settings['button_values']['default'] \

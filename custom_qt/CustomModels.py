@@ -173,7 +173,7 @@ class DataFrameModel(PyQt5.QtCore.QAbstractTableModel):
 
         val = self._dataframe[index.row()][index.column()]
         if role == PyQt5.QtCore.Qt.DisplayRole:
-            return PyQt5.QtCore.QVariant(str(val))
+            return PyQt5.QtCore.QVariant(val)
         elif role == DataFrameModel.ValueRole:
             return val
         return None

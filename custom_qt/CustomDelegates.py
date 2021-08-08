@@ -7,7 +7,7 @@ import bisect
 from app_styles.AppStyles import quote_board_colors
 
 
-def number_string(number):
+def number_string_threshold(number):
     """
      usage LastQuoteBoardDelegate to handle large numbers for market cap formulas etc
     """
@@ -22,6 +22,19 @@ def number_string(number):
     # add more suffixes if you need them
     suffix = ['','M', 'B', 'T', 'P'][magnitude]
     return f'{number: ,.2f} {suffix}'
+
+def number_string(number):
+    magnitude = 0
+    while abs(number) >= 1_000:
+        magnitude += 1
+        number /= 1_000
+    # add more suffixes if you need them
+    suffix = ['','k','M', 'B', 'T', 'P'][magnitude]
+    return f'{number: ,.0f} {suffix}'
+
+def price_format(number):
+    num_str = f'{number: ,}'
+    return num_str[:-2] if num_str.endswith('.0') else num_str
 
 class MarketQuoteBoardDelegate(PyQt5.QtWidgets.QStyledItemDelegate):
     """
@@ -96,7 +109,7 @@ class LastQuoteBoardDelegate(PyQt5.QtWidgets.QStyledItemDelegate):
 
         default_color = PyQt5.QtGui.QColor('#FFFFFF')
         if item not in ['-',0, '', '0', '0.0']:
-            item = number_string(float(item))
+            item = number_string_threshold(float(item))
             painter.fillRect(option.rect, default_color)  # 183666
         else:
             item = ''
@@ -388,7 +401,11 @@ def StyleActivityCells(trade_data, col):
                          ]
     col is 'time', 'market', 'exchange', 'USD', 'side', 'price', or 'type'
     """
-    cell = PyQt5.QtWidgets.QTableWidgetItem(trade_data[col][0])  # [0] is the formatted version of data
+    if col == 'price':
+        price_formatted = price_format(trade_data[col][-1])
+        cell = PyQt5.QtWidgets.QTableWidgetItem(price_formatted)  # [0] is the formatted version of data
+    else:
+        cell = PyQt5.QtWidgets.QTableWidgetItem(trade_data[col][0])
     cell.setTextAlignment(PyQt5.QtCore.Qt.AlignCenter)
     side = trade_data['side'][0]
     if col == 'time':
@@ -416,12 +433,12 @@ def StyleActivityCells(trade_data, col):
         else:
             text_color = '#FFFFFF'
             back_color = '#00ffa2' if side == 'BUY' else '#ff1f51'
-            font.setPointSize(14)
+            font.setPointSize(13)
             font.setBold(True)
         if trade_data['type'][0] == 'liq':
             back_color = '#364b70'
             text_color = '#05BD7A' if side == 'BUY' else '#FF3A66'
-            font.setPointSize(16)
+            font.setPointSize(14)
             font.setBold(True)
         cell.setFont(font)
         cell.setBackground(PyQt5.QtGui.QBrush(PyQt5.QtGui.QColor(back_color)))
