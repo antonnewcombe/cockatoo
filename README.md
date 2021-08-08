@@ -14,7 +14,8 @@ If you have any questions, comments, setup problems then reach out @cockatoo_sco
 	
 *Optional. Create your own python environment within your git folder and install the requirements
 - python3 -m venv INSERT_YOUR_PATH_HERE
-- source INSERT_YOUR_PATH_HERE/venv/bin/activate
+- [linux] source INSERT_YOUR_PATH_HERE/venv/bin/activate
+- [windows] INSERT_YOUR_PATH_HERE/venv/Scripts/activate.bat
 - pip3 install -r requirements.txt
 
 ## Sign up to FTX exchange
