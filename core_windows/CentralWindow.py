@@ -1423,7 +1423,6 @@ class Window(PyQt5.QtWidgets.QMainWindow):
         self.setWindowTitle('cockatoo')
         self.setWindowIcon(PyQt5.QtGui.QIcon('assets/cockatoo.svg'))
 
-
         self.settings = EmptySettings
         self.configureSettings()
         # splash page
