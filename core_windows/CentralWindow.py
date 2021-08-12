@@ -1388,6 +1388,7 @@ class OrderPosition(PyQt5.QtWidgets.QWidget):
 
     def resetStream(self):
         self.close()
+        self.channel = ftxAPI(public=self.auth_keys['FTX']['public'], private=self.auth_keys['FTX']['private'])
         self.accountStream()
 
     def updateStyle(self, image):
